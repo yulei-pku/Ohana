@@ -1,5 +1,7 @@
-#include <stdio.h>
+taskmain(){
+	motor(left)=36;
+	wait1Msec(500);
 
-void main(void) {
-    printf("Hello from Emily\n");
+	motor(right)=36;
+	wait1Msec(500);
 }
