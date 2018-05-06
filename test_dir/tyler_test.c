@@ -1,5 +1,4 @@
-#include <stdio.h>
 
 void main(void) {
-    printf("Hello from Tyler\n");
+    setMotorSpeed(motor1,35);
 }

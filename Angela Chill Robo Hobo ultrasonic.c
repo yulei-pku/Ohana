@@ -7,7 +7,7 @@
 task main()
 {
 	while(1){
-		if(SensorValue[ultrasonicinput]<=6){
+		if(SensorValue[dgt18]<=6){
 			motor[left]=0;
 			motor[right]=0;
 		}
